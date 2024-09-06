@@ -8,18 +8,19 @@ You can download the WiseConnect 3 package via GitHub ([https://github.com/Silic
 
 The WiseConnect extension, once installed, is located in the `/extension` folder of the Gecko/Simplicity SDK.
 
-```
-├───/components: Source-code and Simplicity Studio component files (.slcc).
-├───/connectivity_firmware: Firmware image for the network co-processor (NWP).
-├───/docs: release notes and migration guides. 
-├───/examples: Simplicity Studio peripheral and networking examples. 
-├───/out_of_box_demo: Folder containing the out-of-box demo binary.
-├───/resources: test scripts, example certificates, etc.
-├───/thirdy-party: third-party code: FreeRTOS, AWS IoT, Azure SDK, etc.
-├───/utilities: script to handle certificates, ble provisioning .apk, logging, etc.
-├───wiseconnect3.slce: SDK Extension File. 
-├───wiseconnect3.slsdk: Property File for Simplicity Studio.
-```
+| Folder/File | Description |
+| --------- | ----------- |
+| components/ | Source-code and Simplicity Studio component files (.slcc). |
+| connectivity_firmware/ | Firmware image for the network co-processor (NWP). |
+| docs/ | release notes and migration guides. | 
+| examples/ | Simplicity Studio peripheral and networking examples. | 
+| out_of_box_demo/ | Folder containing the out-of-box demo binary. |
+| resources/ | test scripts, example certificates, etc. |
+| thirdy-party/ | third-party code | FreeRTOS, AWS IoT, Azure SDK, etc. |
+| utilities/ | script to handle certificates, ble provisioning . |apk, logging, etc. |
+| wiseconnect3.slce | SDK Extension File. | 
+| wiseconnect3.slsdk | Property File for Simplicity Studio. |
+
 
 ## Adding WiseConnect 3 to Simplicity Studio 5
 
